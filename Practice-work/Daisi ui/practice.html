@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+        <li><a href="">menu5</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl">Hero Dev</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li><a href="">menu4</a></li>
+        <li><a href="">menu5</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn btn-secondary">Button</a>
+  </div>
+</div>
+  </header>
+  <div class="text-center mt-5 bg-primary">
+    <button class="btn btn-primary">Explore More</button>
+    <button class="btn btn-error">Explore More</button>
+    <button class="btn btn-warning">Explore More</button>
+    <button class="btn btn-accent">Explore More</button>
+    <button class="btn btn-neutral btn-soft">Explore More</button>
+  </div>
+
+  <div class="dropdown">
+  <div tabindex="0" role="button" class="btn m-1">Click</div>
+  <ul tabindex="-1" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a>Hello</a></li>
+    <li><a>World</a></li>
+  </ul>
+</div>
+</body>
+</html>
