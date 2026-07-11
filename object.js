@@ -9,10 +9,14 @@ const myObj = {
 
 Object.freeze(myObj.name)
 myObj.name = 'Saiful'
-console.log(myObj.name);
+//console.log(myObj.name);
 
 //myObj.roll = '234'
 //console.log(myObj["role"]);
 // delete myObj.name
 // console.log(myObj);
+
+let dfg = null;
+console.log(dfg);
+
 
