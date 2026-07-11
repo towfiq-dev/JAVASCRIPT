@@ -9,4 +9,3 @@ num1 /= 2
 let num3 = 9
 let result = num3 % 2
 console.log(result);
-
