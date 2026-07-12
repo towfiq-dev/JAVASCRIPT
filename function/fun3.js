@@ -6,8 +6,11 @@
 // console.log(fRes);
 
 function func(num1, num2, num3) {
-  const a = num1 + num2 + num3
-  return a
+  let a = num1 + num2 + num3
+  return a;
+  
+  console.log('dfbfdh');
+  
 }
 const res= func(1,2,3)
 console.log(res);
