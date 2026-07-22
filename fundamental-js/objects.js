@@ -1,12 +1,28 @@
-const person = {
+// const person = {
+//   name: "Towfiq",
+//   age: 22,
+//   profession: "MERN Stack Developer",
+//   isStudent: true
+// };
+
+// person.address = "Dhaka"
+
+// console.log(person);
+// const res = Object.values(person)
+// console.log(res);
+const students = {
   name: "Towfiq",
   age: 22,
-  profession: "MERN Stack Developer",
-  isStudent: true
-};
+  country: "Bangladesh",
+  isStudent: true,
+  skills: ["HTML", "CSS", "JavaScript", "React"],
+  address: {
+    district: "Narsingdi",
+    upazila: "Raipura",
+  }
+}
 
-//person.address = "Dhaka"
-
-//console.log(person);
-const res = Object.values(person)
-console.log(res);
+for(let student in students){
+  console.log(students[student]);
+  
+}
